@@ -1,0 +1,22 @@
+{
+	"document_class": "Main",
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "version_old"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "greensock",
+			"path": "path/greensock"
+		}
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"egret_version": "2.0.4"
+}
