@@ -1,0 +1,12 @@
+{
+    "resources":
+        [
+            {"name":"Evildoer_Ui_Dl","type":"sheet","url":"assets/Evildoer_Ui_Dl/Evildoer_Ui_Dl.json"},
+            {"name":"Evildoer_Ui_Dl_swf","type":"json","url":"assets/Evildoer_Ui_Dl/Evildoer_Ui_Dl_swf.json"}
+        ],
+
+    "groups":
+        [
+            {"name":"Evildoer_Ui","keys":"Evildoer_Ui_Dl,Evildoer_Ui_Dl_swf"}
+        ]
+}

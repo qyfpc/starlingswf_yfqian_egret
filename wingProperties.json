@@ -1,0 +1,22 @@
+{
+	"close":false,
+	"resourcePlugin":
+	{
+		"configs":[
+		{
+			"configPath":"resource/resource.json",
+			"relativePath":"resource/"
+		}],
+		"id":"org.egret-labs.resource",
+		"library":
+		{
+			"children":[
+			{
+				"isFolder":false,
+				"key":"Evildoer_Ui_Dl",
+				"name":"Evildoer_Ui_Dl"
+			}]
+		}
+	},
+	"theme":"resource/theme.thm"
+}

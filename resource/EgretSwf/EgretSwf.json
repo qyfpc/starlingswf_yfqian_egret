@@ -1,0 +1,21 @@
+{
+    "resources":
+        [
+            {"name":"EgretSwf_MaxUi","type":"sheet","url":"EgretSwf_MaxUi/EgretSwf_MaxUi.json"},
+            {"name":"EgretSwf_MaxUi_swf","type":"json","url":"EgretSwf_MaxUi/EgretSwf_MaxUi_swf.json"},
+            {"name":"EgretSwf_Loading","type":"sheet","url":"EgretSwf_Loading/EgretSwf_Loading.json"},
+            {"name":"EgretSwf_Loading_swf","type":"json","url":"EgretSwf_Loading/EgretSwf_Loading_swf.json"},
+            {"name":"EgretSwf_ZJM","type":"sheet","url":"EgretSwf_ZJM/EgretSwf_ZJM.json"},
+            {"name":"EgretSwf_ZJM_swf","type":"json","url":"EgretSwf_ZJM/EgretSwf_ZJM_swf.json"},
+            {"name":"EgretSwf_Log","type":"sheet","url":"EgretSwf_Log/EgretSwf_Log.json"},
+            {"name":"EgretSwf_Log_swf","type":"json","url":"EgretSwf_Log/EgretSwf_Log_swf.json"}
+        ],
+
+    "groups":
+        [
+            {"name":"EgretSwf_All","keys":"EgretSwf_MaxUi,EgretSwf_MaxUi_swf"},
+            {"name":"EgretSwf_All_Loading","keys":"EgretSwf_Loading,EgretSwf_Loading_swf"},
+            {"name":"EgretSwf_All_ZJM","keys":"EgretSwf_ZJM,EgretSwf_ZJM_swf"},
+            {"name":"EgretSwf_All_Log","keys":"EgretSwf_Log,EgretSwf_Log_swf"}
+        ]
+}
