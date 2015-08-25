@@ -22,13 +22,12 @@ module Yfqian {
                 RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE,this.onConfigComp,this);
                 RES.loadConfig("resource/EgretSwf/EgretSwf.json","resource/EgretSwf/");
                 RES.loadGroup(list.Ui_MaxList.UiRes[list.Ui_MaxList.UiMix][1]);
-                //                RES.loadGroup(list.Ui_MaxList.UiRes[Yfqian.resMaxUi.This_resMaxUi._UiMix][1]);    
                 new Yfqian.loading(gotoName,list.Ui_MaxList.UiRes[list.Ui_MaxList.UiMix][0],list.Ui_MaxList.UiMix,list.Ui_MaxList.UiMax);
+
             } else {
+//                trace.log(Yfqian.loading.loadingOn.stopSettime);
+                clearTimeout(Yfqian.loading.loadingOn.stopSettime);
                 new gotoName();
-//                trace.goto(11111);
-//                Yfqian.addMax_Ui.GameUi.visible = true;
-//                trace.log("进入游戏")
 
             }
         }
@@ -40,7 +39,6 @@ module Yfqian {
         }
         private countGroupError;
         private onResourceLoadErr(event:RES.ResourceEvent ):void {
-            trace.log( this.countGroupError );
             if( ++this.countGroupError < 3 ){
                 RES.loadGroup(event.groupName);
             }else{
@@ -50,18 +48,17 @@ module Yfqian {
         }
         public onResourceLoadComplete(event: RES.ResourceEvent): void {
             if(event.groupName == list.Ui_MaxList.UiRes[list.Ui_MaxList.UiMix][1]) {            
-                RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE,this.onResourceLoadErr,this);
                 RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE,this.onResourceLoadComplete,this);
+                RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR,this.onResourceLoadErr,this);
                 list.Ui_MaxList.UiMix++;
                 Yfqian.loading.loadingOn.JingDu_Off();
             }
         }
     }
     export class McData {
-//        public Sprite:starlingswf.SwfSprite;
         public Swf:starlingswf.Swf ;
         public static EventUi:Yfqian.McData;
-        public constructor(UIName,fps=12) {//UIObj,GameUiObj,GameMod,fps
+        public constructor(UIName,fps=12) {//UIObj,GameUiObj,GameMod,fps 游戏动画帧数
             var UIObj = {
                 UISwf:"EgretSwf_"+UIName+"_swf",
                 UISheet:"EgretSwf_"+UIName
@@ -74,9 +71,7 @@ module Yfqian {
             assetsManager.addSpriteSheet(UIObj.UISheet, spriteSheet);
             this.Swf = new starlingswf.Swf(swfData, assetsManager, fps);
 //            trace.log("资源获得");
-//            
-//            this.Sprite = this.Swf.createSprite("spr_2100001");
-//            GameUiObj.addChild(this.Sprite);
+
         }
     }
 

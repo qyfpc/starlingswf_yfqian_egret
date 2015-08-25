@@ -6,7 +6,5 @@ class game extends egret.DisplayObjectContainer{
     public constructor(){
         super();
         new spr_Ui.ZJM_spr();
-        initStarling.Offtext();
-
     }
 }

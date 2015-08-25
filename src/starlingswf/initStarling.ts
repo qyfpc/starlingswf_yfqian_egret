@@ -90,9 +90,8 @@ class initStarling extends egret.DisplayObjectContainer {
         }
     }
     public static Offtext(){
-//        initStarling.MaxStageTimer.stop();
-//        initStarling.MaxStageTimer = null;
-        initStarling.MaxStageTimer.removeEventListener(egret.TimerEvent.TIMER, initStarling.StageTimer,this);
+        initStarling.MaxStageTimer.stop();
+//        initStarling.MaxStageTimer.removeEventListener(egret.TimerEvent.TIMER, initStarling.StageTimer,this);
         Main.MaxStage.removeChild(initStarling.Ontext);  
     }
 }
