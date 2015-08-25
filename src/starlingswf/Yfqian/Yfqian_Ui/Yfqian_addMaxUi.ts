@@ -119,11 +119,11 @@ module Yfqian {
                 }.bind(this),10)
             } else {
                 var _UiVis = this.UiVis;
+                initStarling.Offtext();
                 setTimeout(function() {
                     Yfqian.addMax_Ui.GameUi_GsLog.visible = false;
                     _UiVis();
                     this.UiList_SX();
-                    initStarling.Offtext();
                 }.bind(this),this.GsLogTime)
             }
             Yfqian.addMax_Ui.GameUi_GameLog.visible = false;
