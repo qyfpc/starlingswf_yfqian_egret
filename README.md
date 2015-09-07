@@ -37,14 +37,15 @@ v1.00主要更新：
 
 v0.01a主要更新：
 
-<<<<<<< HEAD
 
 1.修复加载错误奔溃问题
 
 2.增加框架结构接在提示
-=======
+
+======
+
 1、修复加载错误奔溃问题
->>>>>>> origin/master
+
 
 2、增加框架结构接在提示
 
@@ -73,19 +74,9 @@ UI资源：
 注意：更新进度页面时，请减少图片大小，否则会出现长时间黑屏。
 
 
-<<<<<<< HEAD
-独立控件使用说明：
-
-=======
-
-
-
-
-
 独立控件使用说明：
 
 
->>>>>>> origin/master
 1、	对某个控件加入或去除 鼠标点击事件
 
 	加入事件： Yfqian.TuchEvent.On(this.Sprshp); 
@@ -93,10 +84,7 @@ UI资源：
 	去除事件： Yfqian.TuchEvent.Off(this.Sprshp);
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 2、	鼠标事件写法：
 
 元件名.addEventListener(egret.TouchEvent.TOUCH_BEGIN,function() {
@@ -110,15 +98,13 @@ trace.log("点击成功");
 
 new Yfqian.Img("图片地址",显示容器)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
+
 4、	舞台窗口弹射效果：
 
 new Yfqian.Sprite(窗口OBject);
 
-<<<<<<< HEAD
+
 5、	点击动画事件
 
 if(Yfqian.AnNiu.retNum(this.Cj_qd) == true) {     
@@ -129,15 +115,15 @@ if(Yfqian.AnNiu.retNum(this.Cj_qd) == true) {
 
 if(Yfqian.AnNiu.retNum(this.Cj_qd) == true) {    
  
->>>>>>> origin/master
+
 trace.log("点击成功");
 
 }
 
-<<<<<<< HEAD
+
 =======
 
->>>>>>> origin/master
+
 6、	关闭窗口动画事件
 
 if(Yfqian.Sprite.Sprite_Off(this.CreateRole_id_qr, this.Sprshp) == true) {
