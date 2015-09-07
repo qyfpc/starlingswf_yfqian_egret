@@ -6,13 +6,6 @@ starlingswf对starlingswf flash 开发者来说，你更熟悉界面编辑和快
 
 
 项目演示地址：
-<<<<<<< HEAD
-
-http://kungfu.sinaapp.com/html5/sg_GL_V06/
-
-
-目前版本：v0.01
-=======
 
 
 中型游戏（30%完成度）：http://kungfu.sinaapp.com/html5/sg_GL_V06/
@@ -20,16 +13,24 @@ http://kungfu.sinaapp.com/html5/sg_GL_V06/
 
 小游戏（100%）：http://17wgj.com/game/rg/09/
 
+小游戏（3%）：http://17wgj.com/game/sq/11l/
 
 
 
-目前版本：v0.01a
 
->>>>>>> origin/master
+目前版本：v1.00 正式版
+
 
 支持egret版本：1.70以上
 
 
+-----------------------------------------------------------
+
+v1.00主要更新：
+
+1、完全修复加载卡资源问题。
+
+2、优化加载队列内容。
 
 
 -----------------------------------------------------------
