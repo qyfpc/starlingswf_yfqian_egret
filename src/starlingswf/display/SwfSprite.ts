@@ -20,6 +20,10 @@ module starlingswf{
         public getImage(name:string):egret.Bitmap{
             return <egret.Bitmap>this.getChildByName(name);
         }
+        
+        public getButton(name:string):starlingswf.SwfSprite{
+            return <starlingswf.SwfSprite>this.getChildByName(name);
+        }
 
     }
 }

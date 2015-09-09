@@ -19,21 +19,37 @@ module spr_Ui {
     */
     export class OnChild {
         public SprUi: starlingswf.SwfSprite;
-        public constructor(UiName,UiNameSpr = null) {
+        public constructor(UiName,UiNameSpr = null,gtUi=null) {
             var NameSpr;
             if(UiNameSpr == null) {
                 NameSpr = "spr_" + UiName;
             } else {
                 NameSpr = "spr_" + UiNameSpr;
             }
-trace.log(UiName+" - "+NameSpr)
+//trace.log(UiName+" - "+NameSpr)
             this.SprUi = new Yfqian.McData(UiName).Swf.createSprite(NameSpr);
-            Yfqian.addMax_Ui.GameUi.addChild(this.SprUi);
+            if(gtUi == null) {
+                Yfqian.addMax_Ui.GameUi.addChild(this.SprUi);
+
+            } else {
+                gtUi.addChild(this.SprUi);
+
+            }
+
+            
         }
     }
     export class OffChild {
-        public constructor(UiNameObj) {
-            Yfqian.addMax_Ui.GameUi.removeChild(UiNameObj);
+        public constructor(UiNameObj,gtUi=null) {
+            
+            if(gtUi == null) {
+                Yfqian.addMax_Ui.GameUi.removeChild(UiNameObj);
+
+            } else {
+                gtUi.removeChild(UiNameObj);
+
+            }
+
         }
     }
     
