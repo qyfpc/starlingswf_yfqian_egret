@@ -74,7 +74,7 @@ class initStarling extends egret.DisplayObjectContainer {
             initStarling.Ontext.text="loading...";
             initStarling.MaxStageState=0; 
         }
-        trace.log(1111);
+//        trace.log("完成初始化");
     }
 
     public static jingling(add=true){

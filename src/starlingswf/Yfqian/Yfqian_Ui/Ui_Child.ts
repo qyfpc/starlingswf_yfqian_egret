@@ -40,11 +40,9 @@ module spr_Ui {
         }
     }
     export class OffChild {
-        public constructor(UiNameObj,gtUi=null) {
-            
+        public constructor(UiNameObj,gtUi=null) {  
             if(gtUi == null) {
                 Yfqian.addMax_Ui.GameUi.removeChild(UiNameObj);
-
             } else {
                 gtUi.removeChild(UiNameObj);
 

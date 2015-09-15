@@ -64,7 +64,7 @@ module Yfqian {
             Yfqian.loading.loadingOn.JingDu_TimeOff(Yfqian.loading.loadingOn._Name,Yfqian.loading.loadingOn._TextName,Yfqian.loading.loadingOn._TextMix,Yfqian.loading.loadingOn._TextMax);
         }
         public JingDu_TimeOff(Name,TextName,TextMix,TextMax) {
-            Yfqian.loading.loadingOn.LoadingMixNum += 5;
+            Yfqian.loading.loadingOn.LoadingMixNum += 20;
             if(Yfqian.loading.loadingOn.LoadingMixNum >= 100) {
                 Yfqian.loading.loadingOn.LoadingNum = Number(Yfqian.loading.loadingOn.loadingMaskW) / Number(Yfqian.loading.loadingOn.LoadingMaxNum) * Number(100);
                 Yfqian.loading.loadingOn.loadingMask.width = Yfqian.loading.loadingOn.LoadingNum;
@@ -74,7 +74,7 @@ module Yfqian {
                 setTimeout(function() {
                     Yfqian.addMax_Ui.GameUi_GameLog.visible = false;
                     Yfqian.resMaxUi.This_resMaxUi.setUi(Name);
-                }.bind(this),500);
+                }.bind(this),100);
             } else {
                 Yfqian.loading.loadingOn.LoadingNum = Number(Yfqian.loading.loadingOn.loadingMaskW) / Number(Yfqian.loading.loadingOn.LoadingMaxNum) * Number(Yfqian.loading.loadingOn.LoadingMixNum);
                 //                trace.log(this.LoadingNum+" - "+this.loadingMaskW+" - "+this.LoadingMaxNum+" - "+this.LoadingMixNum)

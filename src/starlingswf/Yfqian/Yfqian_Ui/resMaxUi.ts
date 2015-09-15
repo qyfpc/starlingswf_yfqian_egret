@@ -52,7 +52,7 @@ module Yfqian {
         }
         public onResourceLoadComplete(event: RES.ResourceEvent): void {
             if(event.groupName == list.Ui_MaxList.UiRes[list.Ui_MaxList.UiMix][1]) {           
-                trace.log( 1111 );
+//                trace.log("完成更新");
                 RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE,this.onResourceLoadComplete,this);
                 RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR,this.onResourceLoadErr,this);
                 list.Ui_MaxList.UiMix++;

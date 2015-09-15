@@ -174,8 +174,8 @@ module starlingswf{
             var Btn = false;
             sprite.addEventListener( egret.TouchEvent.TOUCH_BEGIN, Button_On,this);
             var btnTime;
-            sprite.anchorOffsetX = sprite.width / 2;
-            sprite.anchorOffsetY = sprite.height / 2;
+//            sprite.anchorOffsetX = sprite.width / 2;
+//            sprite.anchorOffsetY = sprite.height / 2;
             function Button_On()
             {
                 if(Btn == false) {

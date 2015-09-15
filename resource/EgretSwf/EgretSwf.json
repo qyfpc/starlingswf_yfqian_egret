@@ -8,7 +8,15 @@
             {"name":"EgretSwf_ZJM","type":"sheet","url":"EgretSwf_ZJM/EgretSwf_ZJM.json"},
             {"name":"EgretSwf_ZJM_swf","type":"json","url":"EgretSwf_ZJM/EgretSwf_ZJM_swf.json"},
             {"name":"EgretSwf_Log","type":"sheet","url":"EgretSwf_Log/EgretSwf_Log.json"},
-            {"name":"EgretSwf_Log_swf","type":"json","url":"EgretSwf_Log/EgretSwf_Log_swf.json"}
+            {"name":"EgretSwf_Log_swf","type":"json","url":"EgretSwf_Log/EgretSwf_Log_swf.json"},
+            {"name":"EgretSwf_FeiJi","type":"sheet","url":"EgretSwf_FeiJi/EgretSwf_FeiJi.json"},
+            {"name":"EgretSwf_FeiJi_swf","type":"json","url":"EgretSwf_FeiJi/EgretSwf_FeiJi_swf.json"},
+            {"name":"EgretSwf_FeiJiZD","type":"sheet","url":"EgretSwf_FeiJiZD/EgretSwf_FeiJiZD.json"},
+            {"name":"EgretSwf_FeiJiZD_swf","type":"json","url":"EgretSwf_FeiJiZD/EgretSwf_FeiJiZD_swf.json"},
+            {"name":"EgretSwf_DengLu","type":"sheet","url":"EgretSwf_DengLu/EgretSwf_DengLu.json"},
+            {"name":"EgretSwf_DengLu_swf","type":"json","url":"EgretSwf_DengLu/EgretSwf_DengLu_swf.json"},
+            {"name":"EgretSwf_XSZY","type":"sheet","url":"EgretSwf_XSZY/EgretSwf_XSZY.json"},
+            {"name":"EgretSwf_XSZY_swf","type":"json","url":"EgretSwf_XSZY/EgretSwf_XSZY_swf.json"}
         ],
 
     "groups":
@@ -16,6 +24,10 @@
             {"name":"EgretSwf_All","keys":"EgretSwf_MaxUi,EgretSwf_MaxUi_swf"},
             {"name":"EgretSwf_All_Loading","keys":"EgretSwf_Loading,EgretSwf_Loading_swf"},
             {"name":"EgretSwf_All_ZJM","keys":"EgretSwf_ZJM,EgretSwf_ZJM_swf"},
-            {"name":"EgretSwf_All_Log","keys":"EgretSwf_Log,EgretSwf_Log_swf"}
+            {"name":"EgretSwf_All_Log","keys":"EgretSwf_Log,EgretSwf_Log_swf"},
+            {"name":"EgretSwf_All_FeiJi","keys":"EgretSwf_FeiJi,EgretSwf_FeiJi_swf"},
+            {"name":"EgretSwf_All_FeiJiZD","keys":"EgretSwf_FeiJiZD,EgretSwf_FeiJiZD_swf"},
+            {"name":"EgretSwf_All_DengLu","keys":"EgretSwf_DengLu,EgretSwf_DengLu_swf"},
+            {"name":"EgretSwf_All_XSZY","keys":"EgretSwf_XSZY,EgretSwf_XSZY_swf"}
         ]
 }
